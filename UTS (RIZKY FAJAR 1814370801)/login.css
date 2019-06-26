@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+
+#pengikat {
+    width: 100%;
+}
+
+#pengikat #header {
+    width: 100%;
+    height: 191px;
+}
+
+#pengikat #header img {
+    margin-left: 5%;
+}
+
+#pengikat #body {
+    width: 100%;
+}
+
+#pengikat #body #side1 {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+#pengikat #body #side1 img {
+    margin-left: 10%;
+    width: 60%;
+}
+
+#pengikat #body #side2 {
+    width: 50%;
+    float: left;
+    height: 432px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pengikat #body #side2 #welcome {
+    width: 100%;
+}
+
+#pengikat #body #side2 #welcome h1 {
+    font-size: 25px;
+}
+
+#pengikat #body #side2 #register {
+    width: 100%;
+}
+
+#pengikat #body #side2 #register .left {
+    float: left;
+    font-size: 15px;
+    margin-top: -9px;
+}
+
+#pengikat #body #side2 #register .right {
+    float: left;
+    font-size: 15px;
+    margin-left: 1%;
+    padding: 0.5%;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+#login {
+    width: 100%;
+    margin-top: 50px;
+}
+
+form{
+    max-width:30em;
+    font-family:'Open Sans', sans-serif;
+  }
+
+label {
+    font-size: .8em;
+    color: #072d76;
+}
+
+input{
+  display:block;
+  width:77%;
+  padding:.7em;
+  margin: .2em 0 .6em;
+  font-size: .8em;
+  border:solid thin rgb(210, 214, 233);
+  border-radius: 3px;
+}
+
+input[type=submit]{
+  border:none;
+  margin:1em 0;
+  width: 30%;
+  color:white;
+  padding:0.8em;
+  background-color: #072d76;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+    border:none;
+    margin:1em 0;
+    width: 30%;
+    color:white;
+    padding:0.8em;
+    background-color: #163f8e;
+    cursor: pointer;
+  }
+
+#teks {
+    width: 100%;
+    height: 50px;
+}
+
+.text-left {
+    font-size: .8em;
+    float: left;
+    color: #072d76;
+}
+
+.text-right {
+    margin-left: 2%;
+    font-size: .8em;
+    float: left;
+}
+
+a:link {
+	color: #072d76;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #072d76;
+}
+a:hover {
+	text-decoration: none;
+	color: #072d76;
+}
+a:active {
+	text-decoration: none;
+	color: #072d76;
+}
